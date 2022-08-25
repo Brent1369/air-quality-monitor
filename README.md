@@ -14,3 +14,9 @@ dust aan boot
 lcd aand input only
 
 5 uur aan tft display gewerkt om alles fatsoenlijk te maken
+
+3 uur mq sensors
+
+todo: add resistor bridge mq sensor
+
+temperature sensor wrong
