@@ -7,22 +7,30 @@
 #include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
 #include <SPI.h>
 
-//#include "PMS.h"
-/* BEGIN CONFIGURATION */
+
 #define DEBUG_BAUDRATE 9600
-//#include <PMserial.h>
+
+
+#define TFT_CS 32
+#define TFT_DC  26
+#define TFT_RST 27
+
+#define TFT_MOSI 25  // Data out
+#define TFT_SCLK 33  // Clock out
+
+#define pms5003_RX_PIN 19       // Rx pin which the S8 Tx pin is attached to (change if it is needed)
+#define pms5003_TX_PIN 18         // Tx pin which the S8 Rx pin is attached to (change if it is needed)
+
 
 #define S8_RX_PIN 22        // Rx pin which the S8 Tx pin is attached to (change if it is needed)
 #define S8_TX_PIN 23         // Tx pin which the S8 Rx pin is attached to (change if it is needed)
+
 SoftwareSerial S8_serial(S8_RX_PIN, S8_TX_PIN);
 S8_UART *sensor_S8;
 S8_sensor sensor;
 
-#define pms5003_RX_PIN 19       // Rx pin which the S8 Tx pin is attached to (change if it is needed)
-#define pms5003_TX_PIN 18         // Tx pin which the S8 Rx pin is attached to (change if it is needed)
+
 SoftwareSerial  pmsSerial( pms5003_RX_PIN, pms5003_TX_PIN);
-//PMS pms(pms5003_serial);
-//PMS::DATA data;
 
 struct pms5003data {
   uint16_t framelen;
@@ -35,16 +43,11 @@ struct pms5003data {
 
 struct pms5003data data;
 
-#define TFT_CS 32
-#define TFT_DC  26
-#define TFT_RST 27
-
-#define TFT_MOSI 25  // Data out
-#define TFT_SCLK 33  // Clock out
-
 float p = 3.1415926;
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
+//boolean readPMSdata(Stream *s); 
+//void TextLCD(char *text, uint16_t color, uint16_t x, uint16_t y);
 
 void setup() {
    tft.initR(INITR_BLACKTAB);      // Init ST7735S chip, black tab
@@ -98,20 +101,26 @@ pmsSerial.begin(9600);
 
   // large block of text
   tft.fillScreen(ST77XX_BLACK);
-
+   tft.setRotation(1);
+   tft.setTextSize(1);
 }
 
 
 void loop() {
- 
-
   
+
+  char buf [100]; 
   //printf("Millis: %lu\n", millis());
 
   // Get CO2 measure
   sensor.co2 = sensor_S8->get_co2();
-  printf("CO2 value = %d ppm\n", sensor.co2);
-
+ // printf("CO2 value: %d ppm\n", sensor.co2);
+  memset(buf, ' ', 100);
+  sprintf (buf, "CO2: %d ppm", sensor.co2);
+  buf[strlen(buf)]=' ';
+  
+  //tft.fillScreen(ST77XX_BLACK);
+  TextLCD(buf, ST77XX_WHITE, 0, 10);
   //Serial.printf("/*%u*/\n", sensor.co2);   // Format to use with Serial Studio program
 
   // Compare with PWM output
@@ -122,13 +131,31 @@ void loop() {
   
   if (readPMSdata(&pmsSerial)) {
     // reading data was successful!
-    Serial.println();
-    Serial.println("---------------------------------------");
-    Serial.println("Concentration Units (standard)");
-    Serial.print("PM 1.0: "); Serial.print(data.pm10_standard);
-    Serial.print("\t\tPM 2.5: "); Serial.print(data.pm25_standard);
-    Serial.print("\t\tPM 10: "); Serial.println(data.pm100_standard);
-    Serial.println("---------------------------------------");
+   // Serial.println();
+   // Serial.println("---------------------------------------");
+   // Serial.println("Concentration Units (standard)");
+   // Serial.print("PM 1.0: "); Serial.print(data.pm10_standard);
+
+    memset(buf, ' ', 100);
+    sprintf (buf, "PM1.0: %d ug/m3", data.pm10_standard);
+    buf[strlen(buf)]=' ';
+    TextLCD(buf, ST77XX_WHITE, 0, 30);
+    
+    //Serial.print("\t\tPM 2.5: "); Serial.print(data.pm25_standard);
+
+    memset(buf, ' ', 100);
+    sprintf (buf, "PM2.5: %d ug/m3", data.pm25_standard);
+    buf[strlen(buf)]=' ';
+    TextLCD(buf, ST77XX_WHITE, 0, 50);
+    
+    //Serial.print("\t\tPM10: "); Serial.println(data.pm100_standard);
+
+    memset(buf, ' ', 100);
+    sprintf (buf, "PM10 : %d ug/m3", data.pm100_standard);
+    buf[strlen(buf)]=' ';
+    TextLCD(buf, ST77XX_WHITE, 0, 70);
+    
+    /*Serial.println("---------------------------------------");
     Serial.println("Concentration Units (environmental)");
     Serial.print("PM 1.0: "); Serial.print(data.pm10_env);
     Serial.print("\t\tPM 2.5: "); Serial.print(data.pm25_env);
@@ -140,11 +167,20 @@ void loop() {
     Serial.print("Particles > 2.5um / 0.1L air:"); Serial.println(data.particles_25um);
     Serial.print("Particles > 5.0um / 0.1L air:"); Serial.println(data.particles_50um);
     Serial.print("Particles > 10.0 um / 0.1L air:"); Serial.println(data.particles_100um);
-    Serial.println("---------------------------------------");
+    Serial.println("---------------------------------------");*/
   }
 
-  //delay(1000);
+  delay(100);
   
+}
+
+
+void TextLCD(char *text, uint16_t color, uint16_t x, uint16_t y)  {
+  tft.setCursor(x, y);
+  tft.setTextColor(color, ST77XX_BLACK);
+  tft.setTextWrap(false);
+  tft.print(text);
+
 }
 
 boolean readPMSdata(Stream *s) {
