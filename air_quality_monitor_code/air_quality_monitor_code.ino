@@ -6,10 +6,13 @@
 #include <Adafruit_ST7735.h> // Hardware-specific library for ST7735
 #include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
 #include <SPI.h>
-
-
+#include <Wire.h>
+#include "Adafruit_SHT31.h"
+#include <MQUnifiedsensor.h>
+#
 #define DEBUG_BAUDRATE 9600
 
+#define VOLTAGE 3.3
 
 #define TFT_CS 32
 #define TFT_DC  26
@@ -48,6 +51,10 @@ Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RS
 
 //boolean readPMSdata(Stream *s); 
 //void TextLCD(char *text, uint16_t color, uint16_t x, uint16_t y);
+
+float temperature = 25.0; // Assume current temperature. Recommended to measure with DHT22
+float humidity = 50.0; // Assume current humidity. Recommended to measure with DHT22
+
 
 void setup() {
    tft.initR(INITR_BLACKTAB);      // Init ST7735S chip, black tab
@@ -103,6 +110,10 @@ pmsSerial.begin(9600);
   tft.fillScreen(ST77XX_BLACK);
    tft.setRotation(1);
    tft.setTextSize(1);
+   //mq7.calibrate();    // calculates R0
+
+
+
 }
 
 
@@ -139,21 +150,21 @@ void loop() {
     memset(buf, ' ', 100);
     sprintf (buf, "PM1.0: %d ug/m3", data.pm10_standard);
     buf[strlen(buf)]=' ';
-    TextLCD(buf, ST77XX_WHITE, 0, 30);
+    TextLCD(buf, ST77XX_WHITE, 0, 25);
     
     //Serial.print("\t\tPM 2.5: "); Serial.print(data.pm25_standard);
 
     memset(buf, ' ', 100);
     sprintf (buf, "PM2.5: %d ug/m3", data.pm25_standard);
     buf[strlen(buf)]=' ';
-    TextLCD(buf, ST77XX_WHITE, 0, 50);
+    TextLCD(buf, ST77XX_WHITE, 0, 40);
     
     //Serial.print("\t\tPM10: "); Serial.println(data.pm100_standard);
 
     memset(buf, ' ', 100);
     sprintf (buf, "PM10 : %d ug/m3", data.pm100_standard);
     buf[strlen(buf)]=' ';
-    TextLCD(buf, ST77XX_WHITE, 0, 70);
+    TextLCD(buf, ST77XX_WHITE, 0, 55);
     
     /*Serial.println("---------------------------------------");
     Serial.println("Concentration Units (environmental)");
@@ -170,6 +181,33 @@ void loop() {
     Serial.println("---------------------------------------");*/
   }
 
+
+  
+
+  
+   //Serial.print("PPM = "); Serial.println(mq7.readPpm());
+
+   memset(buf, ' ', 100);
+   float MQ7Percentage = ((float)analogRead(36)/4096)*100;
+   sprintf (buf, "MQ7: %.2f %% CO", MQ7Percentage);
+   buf[strlen(buf)]=' ';
+   TextLCD(buf, ST77XX_WHITE, 0, 70);
+
+
+ 
+
+  float MQ135Percentage = ((float)analogRead(39)/4096)*100;
+  memset(buf, ' ', 100);
+   sprintf (buf, "MQ135: %.2f  %% TVOC", MQ135Percentage);
+   buf[strlen(buf)]=' ';
+   TextLCD(buf, ST77XX_WHITE, 0, 85);
+
+
+
+
+
+
+  
   delay(100);
   
 }
