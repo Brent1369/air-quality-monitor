@@ -1,0 +1,159 @@
+Change Component Footprint: Designator=PMS5003 Old Footprint=61300811121 New Footprint=pms5003
+Change Component Comment : Designator=PMS5003 Old Comment=61300811121 New Comment=pms5003
+Change Managed Component Library Link : Designator=PMS5003 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=2615ADFC-2EA6-4AD2-9757-89403FB1141F New ItemGUID= Old RevisionGUID=94A3B908-2112-4854-B1EA-5BECC85763F0 New RevisionGUID=
+Change component parameters: Designator = "PMS5003" ("pms5003"); Footprint = "61300811121"; UniqueID = "\HDVBXUKM" ("\HDVBXUKM")
+Added Component: Designator=D?(ONSC-SURMETIC40-2-017AA-01)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/1N5333B-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/017AA.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin, Axial Lead, Diameter 3.49 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SURMETIC40-2-017AA-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. O, 09/2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "1N5350BRLG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "13"; VariantName = "[No Variations]"
+Added Component: Designator=D?(ONSC-SURMETIC40-2-017AA-01)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/1N5333B-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/017AA.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "P Max (W)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin, Axial Lead, Diameter 3.49 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SURMETIC40-2-017AA-01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. O, 09/2005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "1N5350BRLG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Pb-Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VZ Typ (V)"; Value = "13"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(ONSC-TO-92-3-29-11)
+Add component (AddParameter): Name = "Channel Polarity"; Value = "N Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ciss Typ (pF)"; Value = "60"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/2N7000-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/2N6426-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coss Typ (pF)"; Value = "25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Crss Typ (pF)"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID Max (A)"; Value = "0.2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Type"; Value = "TO-92"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Transistor Outline, Body 4.825 x 3.685 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO-92-3-29-11_AM_SL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Bulk Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "2N7000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PD Max (W)"; Value = "0.35"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "V(BR)DSS Min (V)"; Value = "60"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS Max (V)"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VGS(th) Max (V)"; Value = "3"; VariantName = "[No Variations]"
+Added Component: Designator=S?(SS12D00G3)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://vimex.com/switches/techdocs/SS12D00-tech.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vimex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SS12D00G3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Testing Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=MQ7-1
+Added Pin To Net: NetName=+5 Pin=MQ135-1
+Added Pin To Net: NetName=+5 Pin=PMS5003-1
+Added Pin To Net: NetName=+5 Pin=U?-19
+Added Net: Name=+5
+Added Pin To Net: NetName=3V3 Pin=LCD-8
+Added Pin To Net: NetName=3V3 Pin=R?-1
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Added Pin To Net: NetName=3V3 Pin=S?-2
+Added Pin To Net: NetName=3V3 Pin=SenseAir S8-2
+Added Pin To Net: NetName=3V3 Pin=SHT31-1
+Added Pin To Net: NetName=3V3 Pin=U?-1
+Added Net: Name=3V3
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Pin To Net: NetName=GND Pin=LCD-7
+Added Pin To Net: NetName=GND Pin=MQ7-2
+Added Pin To Net: NetName=GND Pin=MQ135-2
+Added Pin To Net: NetName=GND Pin=PMS5003-2
+Added Pin To Net: NetName=GND Pin=Q?-1
+Added Pin To Net: NetName=GND Pin=SenseAir S8-1
+Added Pin To Net: NetName=GND Pin=SHT31-2
+Added Pin To Net: NetName=GND Pin=U?-14
+Added Pin To Net: NetName=GND Pin=U?-20
+Added Pin To Net: NetName=GND Pin=U?-26
+Added Net: Name=GND
+Added Pin To Net: NetName=Netbuzzer_2 Pin=Q?-3
+Added Net: Name=Netbuzzer_2
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=MQ7-4
+Added Pin To Net: NetName=NetD?_1 Pin=U?-3
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=NetLCD_1 Pin=LCD-1
+Added Pin To Net: NetName=NetLCD_1 Pin=S?-3
+Added Net: Name=NetLCD_1
+Added Pin To Net: NetName=NetLCD_2 Pin=LCD-2
+Added Pin To Net: NetName=NetLCD_2 Pin=U?-8
+Added Net: Name=NetLCD_2
+Added Pin To Net: NetName=NetLCD_3 Pin=LCD-3
+Added Pin To Net: NetName=NetLCD_3 Pin=U?-9
+Added Net: Name=NetLCD_3
+Added Pin To Net: NetName=NetLCD_4 Pin=LCD-4
+Added Pin To Net: NetName=NetLCD_4 Pin=U?-10
+Added Net: Name=NetLCD_4
+Added Pin To Net: NetName=NetLCD_5 Pin=LCD-5
+Added Pin To Net: NetName=NetLCD_5 Pin=U?-11
+Added Net: Name=NetLCD_5
+Added Pin To Net: NetName=NetLCD_6 Pin=LCD-6
+Added Pin To Net: NetName=NetLCD_6 Pin=U?-7
+Added Net: Name=NetLCD_6
+Added Pin To Net: NetName=Netpms5003_3 Pin=PMS5003-3
+Added Pin To Net: NetName=Netpms5003_3 Pin=R?-2
+Added Net: Name=Netpms5003_3
+Added Pin To Net: NetName=Netpms5003_4 Pin=PMS5003-4
+Added Pin To Net: NetName=Netpms5003_4 Pin=U?-28
+Added Net: Name=Netpms5003_4
+Added Pin To Net: NetName=Netpms5003_5 Pin=PMS5003-5
+Added Pin To Net: NetName=Netpms5003_5 Pin=U?-27
+Added Net: Name=Netpms5003_5
+Added Pin To Net: NetName=Netpms5003_6 Pin=PMS5003-6
+Added Pin To Net: NetName=Netpms5003_6 Pin=R?-1
+Added Net: Name=Netpms5003_6
+Added Pin To Net: NetName=NetQ?_2 Pin=Q?-2
+Added Pin To Net: NetName=NetQ?_2 Pin=U?-31
+Added Net: Name=NetQ?_2
+Added Pin To Net: NetName=NetSenseAir S8_4 Pin=SenseAir S8-4
+Added Pin To Net: NetName=NetSenseAir S8_4 Pin=U?-21
+Added Net: Name=NetSenseAir S8_4
+Added Pin To Net: NetName=NetSenseAir S8_5 Pin=SenseAir S8-5
+Added Pin To Net: NetName=NetSenseAir S8_5 Pin=U?-30
+Added Net: Name=NetSenseAir S8_5
+Added Pin To Net: NetName=NetSHT31_3 Pin=SHT31-3
+Added Pin To Net: NetName=NetSHT31_3 Pin=U?-22
+Added Net: Name=NetSHT31_3
+Added Pin To Net: NetName=NetSHT31_4 Pin=SHT31-4
+Added Pin To Net: NetName=NetSHT31_4 Pin=U?-25
+Added Net: Name=NetSHT31_4
+Added Member To Class: ClassName=Sheet1 Member=Component D? 3V3 zener diode
+Added Member To Class: ClassName=Sheet1 Member=Component D? 3V3 zener diode
+Added Member To Class: ClassName=Sheet1 Member=Component Q? 2N7000
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10k
+Added Member To Class: ClassName=Sheet1 Member=Component S? SS12D00G3

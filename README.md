@@ -24,3 +24,4 @@ temperature sensor wrong
 test andere temp sensor
 
 altium begin
+geleerd arduino pinnen bekijken

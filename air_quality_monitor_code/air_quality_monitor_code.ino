@@ -213,7 +213,7 @@ float t = sht31.readTemperature();
   float h = sht31.readHumidity();
 
   if (! isnan(t)) {  // check if 'is not a number'
-    Serial.print("Temp *C = "); Serial.print(t); Serial.print("\t\t");
+    //Serial.print("Temp *C = "); Serial.print(t); Serial.print("\t\t");
      memset(buf, ' ', 100);
    sprintf (buf, "Temp: %.2f C ", t);
    buf[strlen(buf)]=' ';
@@ -223,7 +223,7 @@ float t = sht31.readTemperature();
   }
   
   if (! isnan(h)) {  // check if 'is not a number'
-    Serial.print("Hum. % = "); Serial.println(h);
+    //Serial.print("Hum. % = "); Serial.println(h);
       memset(buf, ' ', 100);
    sprintf (buf, "Humidity: %.2f  %% ", h);
    buf[strlen(buf)]=' ';
