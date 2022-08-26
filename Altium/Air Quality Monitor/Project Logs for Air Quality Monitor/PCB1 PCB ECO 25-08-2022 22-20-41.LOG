@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet1 Member=PMS5003
+Added Component: Designator=PMS5003 PM2.5 Sensor(PMS5003 PM2.5 Sensor)
+Added Member To Class: ClassName=Sheet1 Member=Component PMS5003 PM2.5 Sensor
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10k

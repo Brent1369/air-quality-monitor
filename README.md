@@ -20,3 +20,7 @@ lcd aand input only
 todo: add resistor bridge mq sensor
 
 temperature sensor wrong
+
+test andere temp sensor
+
+altium begin
