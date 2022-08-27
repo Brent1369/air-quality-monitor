@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=NetSenseAir S8_5 Pin=SW1-3
+Added Member To Class: ClassName=Sheet1 Member=Component U1 ESP32-DEVKITC-32D

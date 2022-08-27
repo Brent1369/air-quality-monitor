@@ -232,7 +232,7 @@ float t = sht31.readTemperature();
     Serial.println("Failed to read humidity");
   }
 
-  //delay(1000);
+  delay(1000);
 
   // Toggle heater enabled state every 30 seconds
   // An ~3.0 degC temperature increase can be noted when heater is enabled
