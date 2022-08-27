@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=MQ7 Old Footprint=61300411121 New Footprint=POLOLU1482
+Change Component Footprint: Designator=MQ135 Old Footprint=61300411121 New Footprint=POLOLU1482
+Change Component Library : Designator=MQ7 Old Library=* New Library=Schlib1.SchLib
+Added Pin To Net: NetName=3V3 Pin=MQ7-A1
+Added Pin To Net: NetName=3V3 Pin=MQ7-A2
+Added Pin To Net: NetName=NetMQ7_B1 Pin=MQ7-B1
+Added Pin To Net: NetName=NetMQ7_B1 Pin=MQ7-B2
+Added Pin To Net: NetName=+5 Pin=MQ7-H1
+Added Pin To Net: NetName=GND Pin=MQ7-H2
+Added Pin To Net: NetName=3V3 Pin=MQ135-A1
+Added Pin To Net: NetName=3V3 Pin=MQ135-A2
+Added Pin To Net: NetName=NetMQ135_B1 Pin=MQ135-B1
+Added Pin To Net: NetName=NetMQ135_B1 Pin=MQ135-B2
+Added Pin To Net: NetName=+5 Pin=MQ135-H1
+Added Pin To Net: NetName=GND Pin=MQ135-H2

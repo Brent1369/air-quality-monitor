@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetQ?_2 New Net Name=NetQ1_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=MQ135-4
+Added Pin To Net: NetName=NetD2_1 Pin=U1-4
+Added Net: Name=NetD2_1
+Added Member To Class: ClassName=Sheet1 Member=Component D2 3V3 zener diode
+Added Member To Class: ClassName=Sheet1 Member=Component R1 10k
