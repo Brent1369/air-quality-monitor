@@ -26,3 +26,5 @@ test andere temp sensor
 altium begin
 geleerd arduino pinnen bekijken
 8 uur na werken
+
+5 uur pcb
