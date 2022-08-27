@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: PCB1.PcbDoc   27/08/2022  13:28:33
+NCDrill File Report For: PCB1.PcbDoc   27/08/2022  18:52:32
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -14,13 +14,14 @@ T3      0.711mm (28mil)                                           Round         
 T4      0.762mm (30mil)                                           Round             10        PTH        0.00mm (0.00inch)
 T5      0.8mm (31mil)                                             Round             3         PTH        0.00mm (0.00inch)
 T6      0.9mm (35mil)                                             Round             3         PTH        0.00mm (0.00inch)
-T7      1mm (39mil)                                               Round             12        PTH        0.00mm (0.00inch)
-T8      1.016mm (40mil)                                           Round             9         PTH        0.00mm (0.00inch)
-T9      1.04mm (41mil)                                            Round             38        PTH        0.00mm (0.00inch)
-T10     1.1mm (43mil)                                             Round             12        PTH        0.00mm (0.00inch)
-T11     2mm (79mil)                                               Round             4         PTH        0.00mm (0.00inch)
-T12     4mm (157mil)                                              Round             4         PTH        0.00mm (0.00inch)
+T7      0.99mm (39mil)                                            Round             4         PTH        0.00mm (0.00inch)
+T8      1mm (39mil)                                               Round             12        PTH        0.00mm (0.00inch)
+T9      1.016mm (40mil)                                           Round             9         PTH        0.00mm (0.00inch)
+T10     1.04mm (41mil)                                            Round             38        PTH        0.00mm (0.00inch)
+T11     1.1mm (43mil)                                             Round             12        PTH        0.00mm (0.00inch)
+T12     2mm (79mil)                                               Round             4         PTH        0.00mm (0.00inch)
+T13     4mm (157mil)                                              Round             4         PTH        0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              120
+Totals                                                                              124
 
 Total Processing Time (hh:mm:ss) : 00:00:00
