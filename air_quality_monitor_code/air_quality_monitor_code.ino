@@ -120,12 +120,12 @@ sht31.begin(0x44);
   else
     Serial.println("DISABLED");
 
-
+/*
 Serial.println("Starting manual calibration...");
   if (!sensor_S8->manual_calibration()) {
     Serial.println("Error setting manual calibration!");
     while (1) { delay(10); }
-  }
+  }*/
     
 }
 
