@@ -28,3 +28,5 @@ geleerd arduino pinnen bekijken
 8 uur na werken
 
 5 uur pcb
+
+7-9 design case
