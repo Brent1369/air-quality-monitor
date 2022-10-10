@@ -25,7 +25,7 @@ weerstand verandert
 
 altium begin
 geleerd arduino pinnen bekijken
-8 uur na werken
+
 
 5 uur pcb
 
@@ -33,10 +33,14 @@ geleerd arduino pinnen bekijken
 
 10 uur assembly case, brass inserts vol plastiek moeten kuisen
 
+7-10 uur lcd solder
+
 5 uur nieuw design
 nieuw case design vergeten schrtoef schuine dingen
 
 3 uur calibreren en testen
+
+1 uur knop kapot
 
 -- uur readme
 
