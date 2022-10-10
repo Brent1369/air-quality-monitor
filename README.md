@@ -1,5 +1,5 @@
 hoevele uren?
-10 uur opzoeken welke componenten
+10 uur opzoeken welke componenten ik ging gebruiken en hoe het design er ging uit zien
 
 3 uur door verkeerde pinnen esp32 (hardware serial)
 
