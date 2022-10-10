@@ -48,6 +48,8 @@ nieuw case design vergeten schrtoef schuine dingen
 Deze Air quality monitor meet CO2, stofdeeltjes in de lucht, CO, VOC, temperatuur en vochtigheid
 
 
+
+
 CO2 waardes buiten zijn ongeveer 400-500 ppm
 no window
 ![IMG_8940](https://user-images.githubusercontent.com/69217508/194939096-e3527a9a-c3c9-47fa-9a77-9c1b2ab60900.JPG)
