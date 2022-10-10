@@ -16,12 +16,11 @@ lcd aand input only
 5 uur aan tft display gewerkt om alles fatsoenlijk te maken
 
 3 uur mq sensors
+weerstand verandert
 
-todo: add resistor bridge mq sensor
 
-temperature sensor wrong
-
-test andere temp sensor
+3 uur temperature sensor verkeerde waardes
+2 uur andere temp sensor getest
 
 altium begin
 geleerd arduino pinnen bekijken
@@ -35,3 +34,6 @@ geleerd arduino pinnen bekijken
 
 5 uur nieuw design
 nieuw case design vergeten schrtoef schuine dingen
+
+
+
