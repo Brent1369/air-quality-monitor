@@ -42,7 +42,10 @@ nieuw case design vergeten schrtoef schuine dingen
 
 1 uur knop kapot
 
--- uur readme
+3 uur readme
+
+
+Deze Air quality monitor meet CO2, stofdeeltjes in de lucht, CO, VOC, temperatuur en vochtigheid
 
 
 CO2 waardes buiten zijn ongeveer 400-500 ppm
