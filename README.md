@@ -45,7 +45,7 @@ nieuw case design vergeten schrtoef schuine dingen
 -- uur readme
 
 
-
+CO2 waardes buiten zijn ongeveer 400-500 ppm
 no window
 ![IMG_8940](https://user-images.githubusercontent.com/69217508/194939096-e3527a9a-c3c9-47fa-9a77-9c1b2ab60900.JPG)
 with window
@@ -77,7 +77,9 @@ case botton upside down
 pcb with component
 ![IMG_8933](https://user-images.githubusercontent.com/69217508/194938898-8c6d0f6c-aea2-42cf-a6a3-c7b2447b52c1.JPG)
 
-pcb assembly
-![IMG_8937](https://user-images.githubusercontent.com/69217508/194938847-7fa01bcd-2cf8-453d-b0eb-44f95610003a.JPG)
 hot insert
 ![IMG_8936](https://user-images.githubusercontent.com/69217508/194938869-4b626ce8-f0d3-45a6-bd63-e6dcc4395716.JPG)
+
+pcb assembly
+![IMG_8937](https://user-images.githubusercontent.com/69217508/194938847-7fa01bcd-2cf8-453d-b0eb-44f95610003a.JPG)
+
