@@ -49,6 +49,10 @@ Deze Air quality monitor meet CO2, stofdeeltjes in de lucht, CO, VOC, temperatuu
 
 
 
+https://user-images.githubusercontent.com/69217508/194945470-0f83bcbc-d27d-4c34-872a-e3b75baa7aa3.MOV
+
+
+
 
 CO2 waardes buiten zijn ongeveer 400-500 ppm
 no window
