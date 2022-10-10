@@ -109,7 +109,7 @@ pmsSerial.begin(9600);
 
   // large block of text
   tft.fillScreen(ST77XX_BLACK);
-   tft.setRotation(1);
+   tft.setRotation(3);
    tft.setTextSize(1);
    //mq7.calibrate();    // calculates R0
 
@@ -142,7 +142,7 @@ void loop() {
   memset(buf, ' ', 100);
   sprintf (buf, "CO2: %d ppm", sensor.co2);
   buf[strlen(buf)]=' ';
-  
+  Serial.println(buf);
   //tft.fillScreen(ST77XX_BLACK);
   TextLCD(buf, ST77XX_WHITE, 0, 10);
   //Serial.printf("/*%u*/\n", sensor.co2);   // Format to use with Serial Studio program
@@ -164,7 +164,7 @@ void loop() {
     sprintf (buf, "PM1.0: %d ug/m3", data.pm10_standard);
     buf[strlen(buf)]=' ';
     TextLCD(buf, ST77XX_WHITE, 0, 25);
-    
+      Serial.println(buf);
     //Serial.print("\t\tPM 2.5: "); Serial.print(data.pm25_standard);
 
     memset(buf, ' ', 100);
@@ -240,7 +240,7 @@ float t = sht31.readTemperature();
     Serial.println("Failed to read humidity");
   }
 
-  delay(1000);
+  delay(100);
 
   // Toggle heater enabled state every 30 seconds
   // An ~3.0 degC temperature increase can be noted when heater is enabled

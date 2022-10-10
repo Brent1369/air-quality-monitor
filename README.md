@@ -30,3 +30,8 @@ geleerd arduino pinnen bekijken
 5 uur pcb
 
 7-9 design case
+
+10 uur assembly case, brass inserts vol plastiek moeten kuisen
+
+5 uur nieuw design
+nieuw case design vergeten schrtoef schuine dingen
