@@ -1,6 +1,6 @@
 hoevele uren?
 10 uur opzoeken welke componenten
-klote co2 sensor
+
 3 uur door verkeerde pinnen esp32 (hardware serial)
 
 3 uur aan CO2 sensor testen
