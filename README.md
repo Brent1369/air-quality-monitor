@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/69217508/194945470-0f83bcbc-d27d-4c34-
 
 
 
-CO2 waardes buiten zijn ongeveer 400-500 ppm
+CO2 waardes buiten zijn ongeveer 400-500 ppm  
 CO2 waardes slaapkamer test:  
 raam dicht  
 ![IMG_8940](https://user-images.githubusercontent.com/69217508/194939096-e3527a9a-c3c9-47fa-9a77-9c1b2ab60900.JPG)
